@@ -1,0 +1,102 @@
+/* Панелька поиска*/
+.searchbox {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  /*Строка поиска*/
+  .searchbox .search-bar {
+    display: block;
+    align-content: center;
+    width: 80%;
+    padding: 15px;
+  
+    border: none;
+    outline: none;
+  
+    background-color: rgba(178, 224, 241, 0.932);
+    margin-top: 25px;
+  
+    box-shadow: 0px 5px rgba(132, 210, 238, 0.932);
+   
+    font-size: 20px;
+  }
+  /*При передаче фокуса в строку поиска*/
+  .searchbox .search-bar:focus {
+    background-color :white;
+  }
+   /*--------------------------------------*/
+
+   /*Город, страна*/
+  .location-box .location {
+    color: black;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: left;
+  }
+  /*Дата*/
+  .location-box .date {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+  }
+  /*--------------------------------------*/
+
+  /*Погода*/
+  .weather-box {
+    text-align: center;
+  }
+  /*Контейнер для температуры*/
+  .weather-box .temp {
+    margin: 20px auto;
+    background-color: rgba(178, 224, 241, 0.932);
+  
+    padding: 15px 25px;
+  
+    color: black;
+    font-size: 90px;
+    font-weight: 700;
+  
+    text-align: center;
+    box-shadow: 3px 6px rgba(132, 210, 238, 0.932);
+  }
+  /*Облачно, солнечно*/
+  .weather-box .weather {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  /*--------------------------------------------*/
+  /*Второй день*/
+  .weather-box .weather2 {
+    position: fixed;
+    display: flex;
+    align-items: left;
+    align-content: left;
+    top: 400px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 50;
+  }
+  .weather-box .temp2 {
+    position: fixed;
+    display: flex;
+    align-items: left;
+    align-content: left;
+    padding: 6px;
+
+    width: 190px;
+    height: 50px;
+    margin: 10px auto;
+    background-color: rgba(178, 224, 241, 0.932);
+
+    color: black;
+    font-size: 30px;
+    font-weight: 50;
+  }
